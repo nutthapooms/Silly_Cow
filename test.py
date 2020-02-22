@@ -83,7 +83,7 @@ class MyGame(arcade.Window):
         self.player_list = arcade.SpriteList()
 
         # Set up the player
-        self.player_sprite = Player("C:/KMITL work/4_2 Semester/AI/Silly_Cow/pizza.png", SPRITE_SCALING)
+        self.player_sprite = Player("card/cow_score.png", SPRITE_SCALING)
         self.player_sprite.center_x = SCREEN_WIDTH / 2
         self.player_sprite.center_y = SCREEN_HEIGHT / 2
         self.player_list.append(self.player_sprite)
